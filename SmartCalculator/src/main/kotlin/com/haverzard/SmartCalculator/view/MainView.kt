@@ -1,7 +1,9 @@
 package com.haverzard.SmartCalculator.view
 
+import com.haverzard.SmartCalculator.Expression.Expression
+import com.haverzard.SmartCalculator.History.History
 import com.haverzard.SmartCalculator.app.Styles
-import com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.close
+//import com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.close
 import javafx.beans.property.ReadOnlyDoubleProperty
 import javafx.beans.property.ReadOnlyProperty
 import javafx.geometry.Insets
@@ -15,13 +17,13 @@ import tornadofx.*
 import java.awt.event.MouseEvent
 import javax.swing.GroupLayout
 import javax.swing.text.html.ImageView
+import javafx.scene.control.Button
 
 class MainView : View() {
     private var x : Double = 0.0
     private var y : Double = 0.0
-    private val inputText = "12 *"
-    private val outputText = "12345"
-
+    private var inputText = "12 *"
+    private var outputText = "12345"
     private val calculator = vbox {
         style {
             backgroundColor += c("#222")
@@ -51,23 +53,24 @@ class MainView : View() {
             }
             right = vbox {
                 addClass(Styles.exit)
-                imageview("exit.png") {
-                    style {
-                        maxHeight = 1.em
-                    }
-                }
+                imageview("Exit.png")
                 setOnMouseClicked {
                     currentStage?.close()
                 }
             }
         }
-
-        vbox {
-            vboxConstraints {
-                margin = Insets(10.0, 0.0, 10.0, 0.0)
+        borderpane {
+            right = vbox {
+                addClass(Styles.history)
+                imageview("History.png")
             }
+        }
+        vbox {
             addClass(Styles.IOBox)
             vbox {
+                vboxConstraints {
+                    margin = Insets(0.0, 15.0, 0.0, 0.0)
+                }
                 style {
                     alignment = Pos.BOTTOM_RIGHT
                 }
@@ -76,6 +79,9 @@ class MainView : View() {
                 }
             }
             vbox {
+                vboxConstraints {
+                    margin = Insets(0.0, 10.0, 0.0, 10.0)
+                }
                 style {
                     alignment = Pos.BOTTOM_RIGHT
                 }
@@ -89,55 +95,74 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(12.0)
+            setSpacing(5.0)
             button("MC")
             button("MR")
             button("M")
             button("sin")
             button("cos")
             button("tan")
-            button("Ans")
             children.addClass(Styles.extendBtn)
         }
+        setSpacing(3.0)
         hbox {
-            setSpacing(4.0)
-            button("C")
-            button("x²")
+            style {
+                alignment = Pos.CENTER
+            }
+            setSpacing(1.2)
             button("√")
+            button("x²")
+            button("C")
             button("/")
             children.addClass(Styles.stdBtn)
         }
         hbox {
-            setSpacing(4.0)
+            style {
+                alignment = Pos.CENTER
+            }
+            setSpacing(1.2)
             button("7")
             button("8")
             button("9")
+            children.addClass(Styles.stdNumberBtn)
             button("*")
-            children.addClass(Styles.stdBtn)
+            children.addClass(Styles.stdOperatorBtn)
         }
         hbox {
-            setSpacing(4.0)
+            style {
+                alignment = Pos.CENTER
+            }
+            setSpacing(1.2)
             button("4")
             button("5")
             button("6")
-            button("+")
-            children.addClass(Styles.stdBtn)
+            children.addClass(Styles.stdNumberBtn)
+            button("-")
+            children.addClass(Styles.stdOperatorBtn)
         }
         hbox {
-            setSpacing(4.0)
+            style {
+                alignment = Pos.CENTER
+            }
+            setSpacing(1.2)
             button("1")
             button("2")
             button("3")
-            button("-")
-            children.addClass(Styles.stdBtn)
+            children.addClass(Styles.stdNumberBtn)
+            button("+")
+            children.addClass(Styles.stdOperatorBtn)
         }
         hbox {
-            setSpacing(4.0)
+            style {
+                alignment = Pos.CENTER
+            }
+            setSpacing(1.0)
             button("%")
             button("0")
             button(".")
+            children.addClass(Styles.stdNumberBtn)
             button("=")
-            children.addClass(Styles.stdBtn)
+            children.addClass(Styles.stdResultBtn)
         }
     }
 
