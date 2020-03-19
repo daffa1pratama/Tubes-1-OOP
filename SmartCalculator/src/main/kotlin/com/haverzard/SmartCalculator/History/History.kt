@@ -4,29 +4,29 @@ import java.util.Queue
 import java.util.LinkedList
 
 class History {
-    private val Container : Queue<Double> = LinkedList<Double>()
+    private val container : Queue<Double> = LinkedList<Double>()
 
     fun printFirst() {
-        println(Container.peek())
+        println(container.peek())
     }
     fun historySize(): Int {
-        return Container.size;
+        return container.size;
     }
-    fun isHistoryEmpty(): Boolean {
-        return Container.isEmpty()
+    fun isEmpty(): Boolean {
+        return container.isEmpty()
     }
     fun enqueue(x: Double) {
-        Container.add(x)
+        container.add(x)
     }
     fun dequeue(): Double {
-        return Container.remove();
+        return container.remove();
     }
     fun printAll() {
-        Container.forEach { element -> print("$element ") }
+        container.forEach { element -> print("$element ") }
     }
     fun clear() {
-        while(!isHistoryEmpty()) {
-            Container.remove()
+        while(!isEmpty()) {
+            container.remove()
         }
     }
 }

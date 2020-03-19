@@ -26,7 +26,7 @@ class Styles : Stylesheet() {
             fill = Color.WHITE
         }
         stdBtn {
-            minWidth = 8.em
+            minWidth = 10.em
             minHeight = 5.em
             fontSize = (1.3).em
             backgroundColor += c("#121212")
@@ -35,7 +35,7 @@ class Styles : Stylesheet() {
             }
         }
         stdOperatorBtn {
-            minWidth = 8.em
+            minWidth = 10.em
             minHeight = 5.em
             fontSize = (2.1).em
             backgroundColor += c("#121212")
@@ -44,7 +44,7 @@ class Styles : Stylesheet() {
             }
         }
         stdResultBtn {
-            minWidth = 8.em
+            minWidth = 10.em
             minHeight = 5.em
             fontSize = (2.1).em
             backgroundColor += c("#202a45")
@@ -53,7 +53,7 @@ class Styles : Stylesheet() {
             }
         }
         stdNumberBtn {
-            minWidth = 8.em
+            minWidth = 10.em
             minHeight = 5.em
             fontSize = (1.5).em
             fontWeight = FontWeight.BOLD
@@ -83,7 +83,6 @@ class Styles : Stylesheet() {
             alignment = Pos.BOTTOM_CENTER
             minHeight = 9.em
             minWidth = 24.em
-            //borderColor += box(c("#AAA"))
         }
         inputText {
             fontSize = (1.5).em

@@ -1,6 +1,6 @@
 package com.haverzard.SmartCalculator.Expression
 
-import kotlin.math.sqrt
+import kotlin.math.*
 
 // ABC Expression
 abstract class Expression() {
@@ -53,9 +53,33 @@ class NegativeExpression(x : Expression) : UnaryExpression(x) {
     }
 }
 
+class SinExpression(x : Expression) : UnaryExpression(x) {
+    override fun solve() : Double {
+        return sin(x.solve())
+    }
+}
+
+class CosExpression(x : Expression) : UnaryExpression(x) {
+    override fun solve() : Double {
+        return cos(x.solve())
+    }
+}
+
+class TanExpression(x : Expression) : UnaryExpression(x) {
+    override fun solve() : Double {
+        return tan(x.solve())
+    }
+}
+
 class RootExpression(x : Expression) : UnaryExpression(x) {
     override fun solve() : Double {
         return sqrt(x.solve())
+    }
+}
+
+class SquareExpression(x : Expression) : UnaryExpression(x) {
+    override fun solve() : Double {
+        return x.solve()*x.solve()
     }
 }
 

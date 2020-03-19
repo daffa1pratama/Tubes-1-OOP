@@ -95,21 +95,22 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(5.0)
+            setSpacing(12.0)
             button("MC")
             button("MR")
             button("M")
             button("sin")
             button("cos")
             button("tan")
+            button("Ans")
             children.addClass(Styles.extendBtn)
         }
-        setSpacing(3.0)
+        setSpacing(5.0)
         hbox {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(1.2)
+            setSpacing(5.0)
             button("√")
             button("x²")
             button("C")
@@ -120,7 +121,7 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(1.2)
+            setSpacing(5.0)
             button("7")
             button("8")
             button("9")
@@ -132,7 +133,7 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(1.2)
+            setSpacing(5.0)
             button("4")
             button("5")
             button("6")
@@ -144,7 +145,7 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(1.2)
+            setSpacing(5.0)
             button("1")
             button("2")
             button("3")
@@ -156,7 +157,7 @@ class MainView : View() {
             style {
                 alignment = Pos.CENTER
             }
-            setSpacing(1.0)
+            setSpacing(5.0)
             button("%")
             button("0")
             button(".")
