@@ -1,9 +1,8 @@
-package com.haverzard.SmartCalculator.app
+package com.haverzard.smartcalculator.app
 
 import javafx.geometry.Pos
 import javafx.scene.paint.Color
 import javafx.scene.text.FontWeight
-import javafx.scene.text.TextAlignment
 import tornadofx.*
 
 class Styles : Stylesheet() {

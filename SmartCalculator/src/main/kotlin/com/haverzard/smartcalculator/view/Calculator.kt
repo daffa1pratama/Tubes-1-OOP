@@ -1,4 +1,4 @@
-package com.haverzard.SmartCalculator.view
+package com.haverzard.smartcalculator.view
 
 import javafx.scene.layout.BorderPane
 import tornadofx.*

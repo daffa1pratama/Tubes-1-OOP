@@ -1,4 +1,4 @@
-package com.haverzard.SmartCalculator.History
+package com.haverzard.smartcalculator.History
 
 import java.util.Queue
 import java.util.LinkedList

@@ -1,9 +1,6 @@
-package com.haverzard.SmartCalculator.app
+package com.haverzard.smartcalculator.app
 
-import com.haverzard.SmartCalculator.view.MainView
-import javafx.scene.Scene
-import javafx.scene.layout.BorderPane
-import javafx.scene.paint.Color
+import com.haverzard.smartcalculator.view.MainView
 import javafx.stage.Stage
 import javafx.stage.StageStyle
 import tornadofx.App

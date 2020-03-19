@@ -1,23 +1,9 @@
-package com.haverzard.SmartCalculator.view
+package com.haverzard.smartcalculator.view
 
-import com.haverzard.SmartCalculator.Expression.Expression
-import com.haverzard.SmartCalculator.History.History
-import com.haverzard.SmartCalculator.app.Styles
-//import com.sun.xml.internal.ws.streaming.XMLStreamReaderUtil.close
-import javafx.beans.property.ReadOnlyDoubleProperty
-import javafx.beans.property.ReadOnlyProperty
+import com.haverzard.smartcalculator.app.Styles
 import javafx.geometry.Insets
 import javafx.geometry.Pos
-import javafx.scene.Scene
-import javafx.scene.layout.HBox
-import javafx.scene.paint.Color
-import javafx.scene.text.TextAlignment
-import javafx.stage.Stage
 import tornadofx.*
-import java.awt.event.MouseEvent
-import javax.swing.GroupLayout
-import javax.swing.text.html.ImageView
-import javafx.scene.control.Button
 
 class MainView : View() {
     private var x : Double = 0.0
