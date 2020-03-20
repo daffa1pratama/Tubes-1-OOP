@@ -7,4 +7,13 @@ open class CompanionParser {
     fun isBinary(x: String) : Boolean {
         return ("b" in x)
     }
+    fun isNumber(x: String) : Boolean {
+        return (x.length == 1)
+    }
+    fun openBracket(x: String) : Boolean {
+        return ("ob" == x)
+    }
+    fun closeBracket(x: String) : Boolean {
+        return ("cb" == x)
+    }
 }
