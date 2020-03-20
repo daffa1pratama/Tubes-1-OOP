@@ -3,8 +3,8 @@ package com.haverzard.smartcalculator.History
 import java.util.Queue
 import java.util.LinkedList
 
-class History {
-    private val container : Queue<Double> = LinkedList<Double>()
+class History <T> {
+    private val container : Queue<T> = LinkedList<T>()
 
     fun printFirst() {
         println(container.peek())
@@ -15,10 +15,10 @@ class History {
     fun isEmpty(): Boolean {
         return container.isEmpty()
     }
-    fun enqueue(x: Double) {
+    fun enqueue(x: T) {
         container.add(x)
     }
-    fun dequeue(): Double {
+    fun dequeue(): T {
         return container.remove();
     }
     fun printAll() {
