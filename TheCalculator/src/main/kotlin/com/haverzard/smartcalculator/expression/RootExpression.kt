@@ -1,9 +1,12 @@
 package com.haverzard.smartcalculator.expression
 
+import com.haverzard.smartcalculator.exception.ImaginaryException
 import kotlin.math.sqrt
 
 class RootExpression(x : Expression) : UnaryExpression(x) {
     override fun solve() : Double {
-        return sqrt(x.solve())
+        val temp = sqrt(x.solve())
+        if (temp == Double.NaN) throw ImaginaryException(x.solve())
+        return temp
     }
 }

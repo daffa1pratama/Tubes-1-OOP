@@ -4,6 +4,6 @@ import kotlin.math.sin
 
 class SinExpression(x : Expression) : UnaryExpression(x) {
     override fun solve() : Double {
-        return sin(x.solve())
+        return sin(Math.toRadians(x.solve()))
     }
 }
