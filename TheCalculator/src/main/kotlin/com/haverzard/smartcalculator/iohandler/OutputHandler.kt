@@ -1,8 +1,12 @@
 package com.haverzard.smartcalculator.iohandler
 
+import java.lang.Double.parseDouble
+import java.lang.NumberFormatException
+
 class OutputHandler: IOHandler {
     var solved = false
     var iHandler : InputHandler
+    var error = false
     constructor (x : InputHandler) {
         iHandler = x
         text = "0"
@@ -90,6 +94,7 @@ class OutputHandler: IOHandler {
 
     fun replaceOutput(x: String) {
         text = x
+        error = false
     }
 
     override fun solve() {
@@ -107,10 +112,19 @@ class OutputHandler: IOHandler {
                 solved = true
             }
         }
+        checkError()
     }
 
     override fun clear() {
         text = "0"
         iHandler.clear()
+    }
+
+    fun checkError() {
+        try {
+            parseDouble(text)
+        } catch (e: NumberFormatException) {
+            error = true
+        }
     }
 }

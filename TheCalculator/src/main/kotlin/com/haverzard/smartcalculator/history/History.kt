@@ -19,8 +19,6 @@ class History<T>() {
         return container.remove()
     }
     fun clear() {
-        while(!isEmpty()) {
-            container.remove()
-        }
+        container.clear()
     }
 }
