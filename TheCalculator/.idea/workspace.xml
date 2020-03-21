@@ -249,6 +249,7 @@
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expfinder" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expfinder.UnaryFinderTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
