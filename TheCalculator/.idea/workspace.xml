@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beba19-492e-4df0-8bce-e71a862c743f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/DivisionException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/TanException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/exception/ExceptionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinderTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expfinder/UnaryFinderTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/IOHandlerTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/parser/CompanionParserTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/app/Styles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/app/Styles.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/DivisionExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/DivisionExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/RootExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/RootExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/Solver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/History.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/BinaryExpressionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/BinaryExpressionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/UnaryExpressionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/UnaryExpressionTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +35,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>demo</find>
-    </findStrings>
-    <dirStrings>
-      <dir>C:\Users\es\Projects\tornadofx-idea-plugin\template-projects\tornadofx-maven-project</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -57,12 +50,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="2574" />
-    <option name="height" value="1406" />
   </component>
   <component name="ProjectId" id="1ZOmmUDx3SBTc4AAVhhaJCsF2pF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,6 +142,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinaryExpressionTest" type="JUnit" factoryName="JUnit">
+      <module name="TheCalculator" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expression" />
+      <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expression.BinaryExpressionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryFinderTest" type="JUnit" factoryName="JUnit">
+      <module name="TheCalculator" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expfinder" />
+      <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expfinder.BinaryFinderTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionTest" type="JUnit" factoryName="JUnit">
+      <module name="TheCalculator" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.exception.ExceptionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HistoryTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TheCalculator" />
       <useClassPathOnly />
@@ -202,12 +231,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expression" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expression.UnaryExpressionTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnaryFinderTest" type="JUnit" factoryName="JUnit">
+      <module name="TheCalculator" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expfinder" />
+      <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expfinder.UnaryFinderTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -295,7 +336,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.UnaryExpressionTest" />
+      <item itemvalue="JUnit.UnaryFinderTest" />
+      <item itemvalue="JUnit.BinaryExpressionTest" />
+      <item itemvalue="JUnit.ExceptionTest" />
       <item itemvalue="JUnit.HistoryTest" />
+      <item itemvalue="JUnit.BinaryFinderTest" />
       <item itemvalue="JUnit.HistoryTest.pushTest" />
       <item itemvalue="TornadoFX.MyApp" />
     </list>
@@ -374,40 +419,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="79" key="#UnaryExpressionTest/0.0.1536.824@0.0.1536.824" timestamp="1584719587373" />
-    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584797557197">
+    <state x="623" y="268" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584820838960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584719706346" />
-    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584797557197" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584718779807">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="623" y="268" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584820838960" />
+    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584820836914">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584718779807" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584800985652">
+    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584820836914" />
+    <state x="605" y="171" key="FileChooserDialogImpl" timestamp="1584819156051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584819156051" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584821442749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584721484452" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584800985652" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584800985652">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584821442749" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584821442749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584800985652" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584800985652">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584821442749" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584821442749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584800985652" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584800985652">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584821442749" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584821442749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584800985652" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584821442749" />
     <state x="417" y="108" key="SettingsEditor" timestamp="1584797251474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584719366606" />
     <state x="417" y="108" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584797251474" />
+    <state x="493" y="133" key="new project wizard" timestamp="1584809444247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="493" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584809444247" />
     <state x="514" y="115" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1584721279719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

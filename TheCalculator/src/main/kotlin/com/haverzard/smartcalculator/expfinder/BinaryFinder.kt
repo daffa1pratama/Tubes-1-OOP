@@ -8,8 +8,8 @@ class BinaryFinder: ExpressionFinder {
     private var y : Expression
     constructor(_code: String, _y: Expression, _x: Expression) {
         code = _code
-        x = _x
         y = _y
+        x = _x
     }
 
     override fun call() : Expression = when (code) {

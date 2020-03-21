@@ -146,7 +146,7 @@ class MainView : View() {
                     input.text = oHandler.iHandler.text
                 }
             }
-            button() {
+            button {
                 imageview("Divide.png") {
                     setRotate(45.0)
                 }
@@ -177,7 +177,7 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button() {
+            button {
                 imageview("Cross.png")
                 setOnMouseClicked {
                     onAction("b003")
@@ -206,7 +206,7 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button() {
+            button {
                 imageview("Minus.png") {
                     setRotate(45.0)
                 }
@@ -237,8 +237,8 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button() {
-                imageview("Exit.png") {
+            button {
+                imageview("Plus.png") {
                     setRotate(45.0)
                 }
                 setOnMouseClicked {
@@ -269,7 +269,7 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button() {
+            button {
                 imageview("Equal.png")
                 setOnMouseClicked {
                     oHandler.solve()
