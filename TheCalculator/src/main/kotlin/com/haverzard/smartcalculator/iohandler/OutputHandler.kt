@@ -78,7 +78,7 @@ class OutputHandler: IOHandler {
             } else if (isUnary(iHandler.peeking()) && isUnary(x)) {
                 if (isBinary(x)) iHandler.replace(x.substring(1))
                 else iHandler.replace(x)
-            } else if (!openBracket(iHandler.peeking()) && !isUnary(iHandler.peeking())) {
+            } else if (!openBracket(iHandler.peeking()) && !isUnary(iHandler.peeking()) && !closeBracket(iHandler.peeking())) {
                 if (isBinary(iHandler.peeking())) {
                     when {
                         (isBinary(x) && !isUnary(x)) -> {
