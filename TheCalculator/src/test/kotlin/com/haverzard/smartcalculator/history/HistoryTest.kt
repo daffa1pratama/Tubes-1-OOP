@@ -18,10 +18,16 @@ internal class HistoryTest {
 
     @ParameterizedTest
     @CsvSource("3.23","9.9","100.53","44.3")
-    fun pushPopTest(num : Double) {
-        val x = History<Double>()
+    fun pushPopTest(num : String) {
+        val x = History<String>()
         x.enqueue(num)
         assertEquals(num,x.dequeue())
+    }
+
+    @Test
+    fun popTest() {
+        val x = History<Double>()
+        x.dequeue()
     }
 
     @Test

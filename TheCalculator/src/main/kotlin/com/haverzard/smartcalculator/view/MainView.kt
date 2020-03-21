@@ -90,7 +90,7 @@ class MainView : View() {
             button("MR") {
                 setOnMouseClicked {
                     if (!history.isEmpty()) {
-                        oHandler.replaceOutput(history.dequeue())
+                        oHandler.replaceOutput(history.dequeue()!!)
                         update()
                     }
                 }

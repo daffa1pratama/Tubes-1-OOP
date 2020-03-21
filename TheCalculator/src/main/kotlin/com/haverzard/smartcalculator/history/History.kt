@@ -15,8 +15,9 @@ class History<T>() {
     fun enqueue(x: T) {
         container.add(x)
     }
-    fun dequeue(): T {
-        return container.remove()
+    fun dequeue(): T? {
+        if (!isEmpty()) return container.remove()
+        return null
     }
     fun clear() {
         container.clear()
