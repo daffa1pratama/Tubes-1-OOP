@@ -146,7 +146,10 @@ class MainView : View() {
                     input.text = oHandler.iHandler.text
                 }
             }
-            button("/") {
+            button() {
+                imageview("Divide.png") {
+                    setRotate(45.0)
+                }
                 setOnMouseClicked {
                     onAction("b004")
                 }
@@ -174,7 +177,8 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button("*") {
+            button() {
+                imageview("Cross.png")
                 setOnMouseClicked {
                     onAction("b003")
                 }
@@ -202,7 +206,10 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button("-") {
+            button() {
+                imageview("Minus.png") {
+                    setRotate(45.0)
+                }
                 setOnMouseClicked {
                     onAction("bu001")
                 }
@@ -230,7 +237,10 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button("+") {
+            button() {
+                imageview("Exit.png") {
+                    setRotate(45.0)
+                }
                 setOnMouseClicked {
                     onAction("b002")
                 }
@@ -259,7 +269,8 @@ class MainView : View() {
                 }
             }
             children.addClass(Styles.stdNumberBtn)
-            button("=") {
+            button() {
+                imageview("Equal.png")
                 setOnMouseClicked {
                     oHandler.solve()
                     ans = oHandler.text

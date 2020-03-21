@@ -1,6 +1,6 @@
 package com.haverzard.smartcalculator.iohandler
 
-import com.haverzard.smartcalculator.exception.ImaginaryException
+import com.haverzard.smartcalculator.exception.*
 import com.haverzard.smartcalculator.expfinder.*
 import com.haverzard.smartcalculator.expression.*
 import com.haverzard.smartcalculator.parser.CompanionParser
@@ -39,10 +39,12 @@ class Solver {
             var temp = temporalResults.pop().solve()
             if (temp - temp.toInt() == 0.0) temp.toInt().toString()
             else temp.toString()
-        } catch (e: ArithmeticException) {
-            "Invalid Division by Zero"
+        } catch (e: DivisionException) {
+            "Invalid Division by 0"
         } catch (e: ImaginaryException) {
-            "Imaginary Not Supported"
+            "Imaginary Number"
+        } catch (e: TanException) {
+            "Invalid Tan Input"
         }
     }
 }

@@ -6,7 +6,7 @@ import kotlin.math.sqrt
 class RootExpression(x : Expression) : UnaryExpression(x) {
     override fun solve() : Double {
         val temp = sqrt(x.solve())
-        if (temp == Double.NaN) throw ImaginaryException(x.solve())
+        if (x.solve() < 0) throw ImaginaryException(x.solve())
         return temp
     }
 }

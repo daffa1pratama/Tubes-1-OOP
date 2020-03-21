@@ -16,6 +16,7 @@ class Styles : Stylesheet() {
         val IOBox by cssclass()
         val inputText by cssclass()
         val outputText by cssclass()
+        val errorText by cssclass()
         val historyBox by cssclass()
         val exit by cssclass()
     }
@@ -36,7 +37,7 @@ class Styles : Stylesheet() {
         stdOperatorBtn {
             minWidth = 10.em
             minHeight = 5.em
-            fontSize = (2.1).em
+            fontSize = (2.3).em
             backgroundColor += c("#121212")
             and(hover) {
                 backgroundColor += c("#555")
@@ -88,7 +89,9 @@ class Styles : Stylesheet() {
         }
         outputText {
             fontSize = 4.em
-            //fontWeight = FontWeight.BOLD
+        }
+        errorText {
+            fontSize = 2.em
         }
         exit {
             alignment = Pos.CENTER
