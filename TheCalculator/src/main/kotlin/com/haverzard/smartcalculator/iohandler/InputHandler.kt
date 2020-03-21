@@ -46,5 +46,6 @@ class InputHandler : IOHandler()  {
     override fun clear() {
         text = ""
         inputDeque.clear()
+        bracketCounter = 0
     }
 }

@@ -47,10 +47,15 @@ class OutputHandler: IOHandler {
                 }
             }
             (closeBracket(x)) -> {
-                if (text.isNotEmpty() && iHandler.getBracketCounts() > 0) {
-                    dequeue()
-                    iHandler.enqueue(x)
-                    text = "0"
+                if (iHandler.getBracketCounts() > 0) {
+                    if (closeBracket(iHandler.peeking())) {
+                        iHandler.enqueue(x)
+                        text = "0"
+                    } else if (text.isNotEmpty()) {
+                        dequeue()
+                        iHandler.enqueue(x)
+                        text = "0"
+                    }
                 }
             }
             else -> operatorEnqueue(x)
@@ -66,7 +71,12 @@ class OutputHandler: IOHandler {
                 binaryEnqueue(x)
             }
         } else {
-            if (!openBracket(iHandler.peeking()) && !isUnary(iHandler.peeking())) {
+            if (openBracket(iHandler.peeking()) && isUnary(x)) {
+                unaryEnqueue(x)
+            } else if (isUnary(iHandler.peeking()) && isUnary(x)) {
+                if (isBinary(x)) iHandler.replace(x.substring(1))
+                else iHandler.replace(x)
+            } else if (!openBracket(iHandler.peeking()) && !isUnary(iHandler.peeking())) {
                 if (isBinary(iHandler.peeking())) {
                     when {
                         (isBinary(x) && !isUnary(x)) -> {
