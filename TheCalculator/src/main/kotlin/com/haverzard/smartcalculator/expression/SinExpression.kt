@@ -2,7 +2,10 @@ package com.haverzard.smartcalculator.expression
 
 import kotlin.math.sin
 
+// Kelas SinExpression : Turunan UnaryExpression
 class SinExpression(x : Expression) : UnaryExpression(x) {
+    
+    // Solve() : menghitung nilai sin(x)
     override fun solve() : Double {
         if ((x.solve() % 180.0) == 0.0) {
             return 0.0
