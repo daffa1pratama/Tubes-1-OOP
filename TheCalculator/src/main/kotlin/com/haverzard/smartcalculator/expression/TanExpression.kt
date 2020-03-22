@@ -3,7 +3,10 @@ package com.haverzard.smartcalculator.expression
 import com.haverzard.smartcalculator.exception.TanException
 import kotlin.math.tan
 
+// Kelas TanExpression : Turunan UnaryExpression
 class TanExpression(x : Expression) : UnaryExpression(x) {
+    
+    // Solve() : menghitung nilai tan(x)
     override fun solve() : Double {
         if ((x.solve()/90.0) % 2 == 1.0) throw TanException(x.solve())
         if ((x.solve() % 180.0) == 0.0) {
