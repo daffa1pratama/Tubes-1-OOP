@@ -1,7 +1,6 @@
 package com.haverzard.smartcalculator.expression
 
 import com.haverzard.smartcalculator.exception.TanException
-import kotlin.math.sin
 import kotlin.math.tan
 
 class TanExpression(x : Expression) : UnaryExpression(x) {
@@ -11,7 +10,11 @@ class TanExpression(x : Expression) : UnaryExpression(x) {
             return 0.0
         } else {
             if (((x.solve() % 45.0) == 0.0) && ((x.solve() % 90.0) != 0.0)) {
-                return 1.0
+                val rounded2 : Double
+                val rounded1 : Double
+                rounded2 = String.format("%.2f", tan(Math.toRadians(x.solve()))).toDouble()
+                rounded1 = String.format("%.1f", rounded2).toDouble()
+                return rounded1
             } else {
                 return tan(Math.toRadians(x.solve()))
             }
