@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beba19-492e-4df0-8bce-e71a862c743f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheCalculator.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +63,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TheCalculator" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="D:/Downloaded APPS/javafx-sdk-11.0.2/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -402,21 +405,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="79" key="#UnaryExpressionTest/0.0.1536.824@0.0.1536.824" timestamp="1584719587373" />
-    <state x="191" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584849480880">
+    <state x="191" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584851421082">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="191" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.688@0.0.1280.688" timestamp="1584849480880" />
+    <state x="191" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.688@0.0.1280.688" timestamp="1584851421082" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584719706346" />
     <state x="623" y="268" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584820838960" />
+    <state x="516" y="51" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584851420167">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="516" y="51" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.688@0.0.1280.688" timestamp="1584851420167" />
     <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584820836914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584718779807" />
     <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584820836914" />
-    <state x="403" y="113" key="FileChooserDialogImpl" timestamp="1584849205364">
+    <state x="403" y="113" key="FileChooserDialogImpl" timestamp="1584851256000">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="403" y="113" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1584849205364" />
+    <state x="403" y="113" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1584851256000" />
     <state x="605" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584819156051" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584821442749">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -438,10 +445,10 @@
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584821442749" />
-    <state x="242" y="0" key="SettingsEditor" timestamp="1584849461265">
+    <state x="242" y="0" key="SettingsEditor" timestamp="1584851339847">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
-    <state x="242" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1584849461265" />
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1584851339847" />
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584719366606" />
     <state x="417" y="108" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584797251474" />
     <state x="337" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1584848829338">
