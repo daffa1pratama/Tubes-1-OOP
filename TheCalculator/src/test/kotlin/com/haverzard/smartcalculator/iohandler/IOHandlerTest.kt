@@ -62,13 +62,11 @@ internal class IOHandlerTest {
         assertEquals(false, outputDeque.solved)
         outputDeque.solve()
         assertEquals("( ( 0.3 ) ", outputDeque.iHandler.text)
+        outputDeque.enqueue("b002")
+        outputDeque.enqueue("5")
         outputDeque.enqueue("cb")
         outputDeque.solve()
         assertEquals("", outputDeque.iHandler.text)
-    }
-
-    @Test
-    fun solverTest() {
-
+        assertEquals("5.3", outputDeque.text)
     }
 }
