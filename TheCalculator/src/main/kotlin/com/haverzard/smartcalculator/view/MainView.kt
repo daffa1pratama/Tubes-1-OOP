@@ -142,6 +142,7 @@ class MainView : View() {
                 setOnMouseClicked {
                     oHandler.clear()
                     history.clear()
+                    ans = "0"
                     output.text = oHandler.text
                     input.text = oHandler.iHandler.text
                 }
