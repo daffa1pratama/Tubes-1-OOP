@@ -2,17 +2,6 @@ package com.haverzard.smartcalculator.iohandler
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
-import com.haverzard.smartcalculator.iohandler.IOHandler
-import org.junit.jupiter.params.ParameterizedTest
-import org.junit.jupiter.params.provider.CsvSource
-import com.haverzard.smartcalculator.exception.*
-import com.haverzard.smartcalculator.expfinder.*
-import com.haverzard.smartcalculator.expression.*
-import com.haverzard.smartcalculator.history.History
-import com.haverzard.smartcalculator.parser.CompanionParser
-import java.util.*
-import java.lang.Double.parseDouble
-import java.lang.NumberFormatException
 
 internal class IOHandlerTest {
     @Test
