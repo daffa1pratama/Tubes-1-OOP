@@ -23,11 +23,13 @@ class OutputHandler: IOHandler {
     fun enqueue(x: String) {
         when {
             (x == ".") -> {
-                if (isEmpty()) text = ""
-                text += if (text.isNotEmpty()) {
-                    x
-                } else {
-                    "0$x"
+                if ("." !in text) {
+                    if (isEmpty()) text = ""
+                    text += if (text.isNotEmpty()) {
+                        x
+                    } else {
+                        "0$x"
+                    }
                 }
             }
             (isNumber(x)) -> {
