@@ -21,6 +21,10 @@ class OutputHandler: IOHandler {
     }
 
     fun enqueue(x: String) {
+        if (error) {
+            text = "0"
+            error = false
+        }
         when {
             (x == ".") -> {
                 if ("." !in text) {
