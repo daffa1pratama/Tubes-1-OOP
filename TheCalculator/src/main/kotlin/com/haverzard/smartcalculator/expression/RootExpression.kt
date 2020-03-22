@@ -5,7 +5,6 @@ import kotlin.math.sqrt
 
 // Kelas RootExpression : Turunan UnaryExpression
 class RootExpression(x : Expression) : UnaryExpression(x) {
-
     // Solve() : operasi akar(x)
     override fun solve() : Double {
         val temp = sqrt(x.solve())

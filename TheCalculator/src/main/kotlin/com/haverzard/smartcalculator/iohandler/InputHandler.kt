@@ -6,30 +6,30 @@ import java.util.*
 class InputHandler : IOHandler()  {
     private var inputDeque : Deque<String> = LinkedList<String>()
     private var bracketCounter = 0
-
+    
     fun enqueue(x : String) {
-        // Memasukkan x ke inputDeque
+    // Memasukkan x ke inputDeque
         inputDeque.addLast(x)
         val temp = lookup(x)
         if (openBracket(x)) bracketCounter++
         if (closeBracket(x)) bracketCounter--
     }
     fun dequeue(x: String) : String {
-        // Mengeluarkan x dari inputDeque
+    // Mengeluarkan x dari inputDeque
         return inputDeque.removeFirst()
     }
     fun replace(x : String) {
-        // Mengganti elemen terakhir dengan x
+    // Mengganti elemen terakhir dengan x
         inputDeque.removeLast()
         enqueue(x)
     }
     fun peeking() : String {
-        // Melihat elemen terakhir
+    // Melihat elemen terakhir
         if (inputDeque.isNotEmpty()) return inputDeque.peekLast()
         return ""
     }
     fun getBracketCounts() : Int {
-        // Menghitung bracket (tanda kurung)
+    // Menghitung bracket (tanda kurung)
         return bracketCounter
     }
     fun stringInput() {
@@ -44,16 +44,16 @@ class InputHandler : IOHandler()  {
         }
     }
     operator fun contains(x : String) : Boolean {
-        // Mengecek apakah inputDeque mengandung x
+    // Mengecek apakah inputDeque mengandung x
         return inputDeque.contains(x)
     }
 
     override fun solve() {
-        // Mengevaluasi elemen inputDeque
+    // Mengevaluasi elemen inputDeque
         text = Solver(inputDeque).evaluate()
     }
     override fun clear() {
-        // Menghapus semua elemen inputDeque
+    // Menghapus semua elemen inputDeque
         text = ""
         inputDeque.clear()
         bracketCounter = 0

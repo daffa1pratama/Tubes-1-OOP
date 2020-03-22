@@ -4,7 +4,6 @@ import kotlin.math.cos
 
 // Kelas CosExpression : Turunan UnaryExpression
 class CosExpression(x : Expression) : UnaryExpression(x) {
-
     // Solve() : menghitung nilai cos(x)
     override fun solve() : Double {
         if (((x.solve() % 90.0) == 0.0) && ((x.solve() % 180.0) != 0.0)) {

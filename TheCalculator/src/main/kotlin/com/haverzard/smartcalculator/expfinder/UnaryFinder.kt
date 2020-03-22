@@ -6,7 +6,6 @@ import com.haverzard.smartcalculator.expression.*
 class UnaryFinder: ExpressionFinder {
     private var code : String
     private var x : Expression
-
     constructor(_code: String, _x: Expression) {
         code = _code
         x = _x
