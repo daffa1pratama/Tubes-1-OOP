@@ -14,9 +14,9 @@ import java.lang.Double.parseDouble
 import java.lang.NumberFormatException
 
 internal class IOHandlerTest {
-    var inputDeque = InputHandler()
     @Test
     fun inputHandlerTest() {
+        var inputDeque = InputHandler()
         var x = "27.0"
         var y = "0.53"
         var bracket1 = "ob"
