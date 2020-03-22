@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beba19-492e-4df0-8bce-e71a862c743f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/exception/ExceptionTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinderTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expfinder/UnaryFinderTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/IOHandlerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/parser/CompanionParserTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/BinaryExpressionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/BinaryExpressionTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/UnaryExpressionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/UnaryExpressionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/IOHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/CompanionParser.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/IOHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/OutputHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/Parser.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +137,6 @@
     </configuration>
     <configuration name="BinaryExpressionTest" type="JUnit" factoryName="JUnit">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expression" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expression.BinaryExpressionTest" />
       <option name="METHOD_NAME" value="" />
@@ -158,7 +150,6 @@
     </configuration>
     <configuration name="BinaryFinderTest" type="JUnit" factoryName="JUnit">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expfinder" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expfinder.BinaryFinderTest" />
       <option name="METHOD_NAME" value="" />
@@ -172,7 +163,6 @@
     </configuration>
     <configuration name="ExceptionTest" type="JUnit" factoryName="JUnit">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.exception" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.exception.ExceptionTest" />
       <option name="METHOD_NAME" value="" />
@@ -186,7 +176,6 @@
     </configuration>
     <configuration name="HistoryTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.haverzard.smartcalculator.history.*" />
@@ -224,7 +213,6 @@
     </configuration>
     <configuration name="UnaryExpressionTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.haverzard.smartcalculator.expression.*" />
@@ -245,7 +233,6 @@
     </configuration>
     <configuration name="UnaryFinderTest" type="JUnit" factoryName="JUnit">
       <module name="TheCalculator" />
-      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.expfinder" />
       <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.expfinder.UnaryFinderTest" />
       <option name="METHOD_NAME" value="" />
@@ -459,6 +446,10 @@
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584719366606" />
     <state x="417" y="108" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584797251474" />
+    <state x="337" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1584848829338">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="337" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.688@0.0.1280.688" timestamp="1584848829338" />
     <state x="493" y="133" key="new project wizard" timestamp="1584809444247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
