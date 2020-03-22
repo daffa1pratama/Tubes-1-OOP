@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1beba19-492e-4df0-8bce-e71a862c743f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/expression/TerminalExpressionTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/InputHandlerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/OutputHandlerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/SolverTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheCalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/DivisionException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/DivisionException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/ImaginaryException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/ImaginaryException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/TanException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/exception/TanException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/BinaryFinder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/ExpressionFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/ExpressionFinder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/UnaryFinder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expfinder/UnaryFinder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/CosExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/DivisionExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/DivisionExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/MultiplicationExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/MultiplicationExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/NegativeExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/NegativeExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/RootExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/RootExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SinExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SquareExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SquareExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SubtractExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SubtractExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SumExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/SumExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TanExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TerminalExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/expression/TerminalExpression.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/history/History.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/history/History.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/IOHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/IOHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/InputHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/InputHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/OutputHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/OutputHandler.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/iohandler/Solver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/CompanionParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/parser/CompanionParser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/Calculator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/haverzard/smartcalculator/view/MainView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/IOHandlerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/iohandler/IOHandlerTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/parser/CompanionParserTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/haverzard/smartcalculator/parser/CompanionParserTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TerminalExpressionTest">
+  <component name="RunManager" selected="TornadoFX.MyApp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -253,6 +221,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOHandlerTest" type="JUnit" factoryName="JUnit">
+      <module name="TheCalculator" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="com.haverzard.smartcalculator.iohandler" />
+      <option name="MAIN_CLASS_NAME" value="com.haverzard.smartcalculator.iohandler.IOHandlerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TerminalExpressionTest" type="JUnit" factoryName="JUnit">
       <module name="TheCalculator" />
       <useClassPathOnly />
@@ -382,6 +364,7 @@
       <item itemvalue="JUnit.UnaryExpressionTest" />
       <item itemvalue="JUnit.CompanionParserTest" />
       <item itemvalue="JUnit.TerminalExpressionTest" />
+      <item itemvalue="JUnit.IOHandlerTest" />
       <item itemvalue="JUnit.UnaryFinderTest" />
       <item itemvalue="JUnit.BinaryExpressionTest" />
       <item itemvalue="JUnit.ExceptionTest" />
@@ -465,21 +448,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="79" key="#UnaryExpressionTest/0.0.1536.824@0.0.1536.824" timestamp="1584719587373" />
-    <state x="623" y="268" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584878671963">
+    <state x="751" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584890111285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="191" y="1" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.688@0.0.1280.688" timestamp="1584851421082" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584719706346" />
-    <state x="623" y="268" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584878671963" />
+    <state x="751" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584890111285" />
     <state x="516" y="51" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1584851420167">
       <screen x="0" y="0" width="1280" height="688" />
     </state>
     <state x="516" y="51" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.688@0.0.1280.688" timestamp="1584851420167" />
-    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584878671012">
+    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584890110468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584718779807" />
-    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584878671012" />
+    <state x="623" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584890110468" />
     <state x="722" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584882807254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -489,26 +472,26 @@
     </state>
     <state x="403" y="113" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1584851256000" />
     <state x="605" y="171" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584856055684" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1584882988719">
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom" timestamp="1584895773611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584721484452" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584882988719" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1584882988719">
+    <state width="1877" height="607" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584895773611" />
+    <state width="1877" height="607" key="GridCell.Tab.0.center" timestamp="1584895773611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584882988719" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1584882988719">
+    <state width="1877" height="607" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584895773611" />
+    <state width="1877" height="607" key="GridCell.Tab.0.left" timestamp="1584895773611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584882988719" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1584882988719">
+    <state width="1877" height="607" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584895773611" />
+    <state width="1877" height="607" key="GridCell.Tab.0.right" timestamp="1584895773611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584721484451" />
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584882988719" />
+    <state width="1877" height="607" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584895773611" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584870921567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

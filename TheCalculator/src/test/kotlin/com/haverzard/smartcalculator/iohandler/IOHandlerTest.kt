@@ -2,14 +2,48 @@ package com.haverzard.smartcalculator.iohandler
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.CsvSource
 import com.haverzard.smartcalculator.exception.*
 import com.haverzard.smartcalculator.expfinder.*
 import com.haverzard.smartcalculator.expression.*
+import com.haverzard.smartcalculator.history.History
 import com.haverzard.smartcalculator.parser.CompanionParser
+import java.util.*
+import java.lang.Double.parseDouble
+import java.lang.NumberFormatException
 
 internal class IOHandlerTest {
+    var inputDeque = InputHandler()
     @Test
     fun inputHandlerTest() {
+        var x = "27.0"
+        var y = "0.53"
+        var bracket1 = "ob"
+        var bracket2 = "cb"
+        assertEquals("", inputDeque.peeking())
+        assertEquals(0, inputDeque.getBracketCounts())
+        assertEquals(false, inputDeque.contains("27.0"))
+        inputDeque.enqueue(x)
+        assertEquals(x, inputDeque.peeking())
+        assertEquals(true, inputDeque.contains("27.0"))
+        inputDeque.replace(y)
+        assertEquals(y,inputDeque.dequeue(y))
+        assertEquals(false, inputDeque.contains("0.53"))
+        inputDeque.enqueue(bracket1)
+        assertEquals(1, inputDeque.getBracketCounts())
+        inputDeque.enqueue(x)
+        inputDeque.enqueue(bracket2)
+        assertEquals(0, inputDeque.getBracketCounts())
+    }
+
+    @Test
+    fun outputHandlerTest() {
+
+    }
+
+    @Test
+    fun solverTest() {
 
     }
 }
