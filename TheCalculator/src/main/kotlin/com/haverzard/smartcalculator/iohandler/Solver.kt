@@ -6,14 +6,19 @@ import com.haverzard.smartcalculator.expression.*
 import com.haverzard.smartcalculator.parser.CompanionParser
 import java.util.*
 
+// Kelas Solver
+// Mengevaluasi ekspresi
 class Solver {
     companion object : CompanionParser()
     private var temporalResults = Stack<Expression>()
     private var inputQueue : Queue<String>
+    
     constructor(x: Queue<String>) {
          inputQueue = x
     }
+    
     fun process() {
+    // Proses pemanggilan ekspresi dan menghitung
         val x = inputQueue.remove()
         when {
             isNumber(x) -> {
@@ -34,6 +39,7 @@ class Solver {
     }
 
     fun evaluate() : String {
+    // Evaluasi ekspresi. Jika ada exception, akan ditangkap disini
         return try {
             while (inputQueue.isNotEmpty()) process()
             var temp = temporalResults.pop().solve()
