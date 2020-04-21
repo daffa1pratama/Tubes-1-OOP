@@ -9,6 +9,7 @@
 * 13518126 / Evan Pradanika
 
 ## Struktur Kode
+```
 TheCalculator
 ├───src
    ├───main
@@ -79,7 +80,8 @@ TheCalculator
                        ├───iohandler
                        │       IOHandlerTest.kt                       
                        └───parser
-                               CompanionParserTest.kt                       
+                               CompanionParserTest.kt    
+ ```
 ## Cara Compile & Run
 Program yang dibuat dapat dijalankan menggunakan IntelliJ IDEA dengan tambahan plugin TornadoFX dan library JavaFX.
 1. Buka IntelliJ IDEA
